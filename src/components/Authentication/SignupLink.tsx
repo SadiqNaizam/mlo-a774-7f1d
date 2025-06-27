@@ -10,7 +10,7 @@ const SignupLink: React.FC<SignupLinkProps> = ({ className }) => {
   return (
     <div className={cn('text-center', className)}>
        <Button variant="link" className="p-0 h-auto font-normal text-sm text-muted-foreground hover:text-primary">
-        or, sign up
+        Or sign up
       </Button>
     </div>
   );
